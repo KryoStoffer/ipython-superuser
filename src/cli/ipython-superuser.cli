@@ -6,7 +6,7 @@
       <callback>
         <exec>
           <osCommand>ipython</osCommand>
-          <args>-i packages/ipython-superuser/python/ipython-superuser.py</args>
+          <args>-i packages/ipython-superuser/python/ipython-superuser.py $(ipath)</args>
           <options>
             <uid>user</uid>
             <gid>user</gid>
@@ -22,7 +22,7 @@
       <callback>
         <exec>
           <osCommand>ipython</osCommand>
-          <args>-i packages/ipython-superuser/python/ipython-superuser.py</args>
+          <args>-i packages/ipython-superuser/python/ipython-superuser.py $(ipath)</args>
           <options>
             <uid>user</uid>
             <gid>user</gid>
